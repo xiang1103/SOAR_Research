@@ -2,7 +2,7 @@
 "Mapping the U.S. Weather: Climate Forecasting with Deep Learning" 
 Over summer of 2024, I researched on using Deep Learning models known as Neural Operators to predict weather attributes of New York, East Coast, and the United States. Using the relative L2 loss function, both U-Net and FNO achieved 98%+ accuracy at predicting temperature 2m above the surface across the United States. 
 
-# Project Models 
+# Project Models
 Following *NVIDIA*'s success of [FourCastNet](https://docs.nvidia.com/deeplearning/modulus/modulus-sym/user_guide/neural_operators/fourcastnet.html), I implemented [Fourier Neural Operators](https://arxiv.org/pdf/2010.08895) and [U-Net](https://arxiv.org/pdf/1505.04597) to replicate similar results, and compare predictions with [Neural Operators](https://zongyi-li.github.io/neural-operator/) and Convolutional Neural Networks. 
 
 The data is collected from [ERA5 Dataset](https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=download) from ECMWF. I wrote program to do data cleaning and processing. More than 10 GB of data is used, containing over 10 years of weather data. Data processing is done using Pandas and Numpy. Xarray is used for visualizing and converting data
@@ -19,4 +19,6 @@ On August 2nd, the final poster was delivered at a summer symposium at Stony Bro
 
 
 # Funding Sources 
-I completed my research through the Summer Opportunity For Academic Research (SOAR) program (I'm the 2nd cohort of the program). I was fortunate to be advised by Professor Yi Liu(Department of Applied Mathematics & Statistics; Department of Computer Science) and funded by [SUNY Research Foundation](https://www.rfsuny.org/). 
+I completed my research through the Summer Opportunity For Academic Research (SOAR) program (I'm the 2nd cohort of the program). I was fortunate to be advised by Professor Yi Liu(Department of Applied Mathematics & Statistics; Department of Computer Science) and funded by [SUNY Research](https://www.rfsuny.org/). 
+
+Hello 
