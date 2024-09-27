@@ -5,7 +5,7 @@ Over summer of 2024, I researched on using Deep Learning models known as Neural 
 # Project Models
 Following *NVIDIA*'s success of [FourCastNet](https://docs.nvidia.com/deeplearning/modulus/modulus-sym/user_guide/neural_operators/fourcastnet.html), I implemented [Fourier Neural Operators](https://arxiv.org/pdf/2010.08895) and [U-Net](https://arxiv.org/pdf/1505.04597) to replicate similar results, and compare predictions with [Neural Operators](https://zongyi-li.github.io/neural-operator/) and Convolutional Neural Networks. 
 
-The data is collected from [ERA5 Dataset](https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=download) from ECMWF. I wrote program to do data cleaning and processing. More than 10 GB of data is used, containing over 10 years of weather data. Data processing is done using Pandas and Numpy. Xarray is used for visualizing and converting data
+The data is collected from [ERA5 Dataset](https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=download) from ECMWF. I wrote program to do data cleaning and processing. More than 150 GB of data is used, containing over 10 years of weather data. Data processing is done using Pandas and Numpy. Xarray is used for visualizing and converting data
 
 
 # Abstract
